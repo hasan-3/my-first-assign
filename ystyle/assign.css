@@ -2,6 +2,8 @@
     margin: 0;
 }
 
+/* Header Section style */
+
 .header {
     background-image: url("../images/banner/banner1.png");
     width: 1600px;
@@ -57,6 +59,8 @@ section {
     margin-bottom: 130px;
 }
 
+/* Failure section Styles */
+
 .failure {}
 
 .failure-content {
@@ -80,6 +84,10 @@ section {
     font-size: 16px;
     color: #444343;
     margin-bottom: 24px;
+}
+
+ul li {
+    list-style: none;
 }
 
 /* plan section style */
@@ -156,12 +164,35 @@ section {
 
 }
 
+/* Contact Section Styles */
+
+.contact-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #737272;
+    text-align: center;
+    background: url("../images/gradient1.png");
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+
+ol {
+    text-align: center;
+    color: blue;
+}
+
+ol li {
+    list-style: none;
+}
+
 /* Footer styles */
 footer {
     width: 1600px;
     height: 577px;
     background: #151414;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-right: 100px;
     margin-top: 200px;
     margin-bottom: 50px;
